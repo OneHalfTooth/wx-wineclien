@@ -1,0 +1,22 @@
+.content{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.image-style{
+  width: 100%;
+}
+.label{
+  font-size: 16px;
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+text{
+  color: palevioletred
+}

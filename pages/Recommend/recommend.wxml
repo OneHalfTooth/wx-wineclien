@@ -1,0 +1,5 @@
+<view class="content">
+  <image src="{{imageUrl}}" class="image-style"></image>
+
+  <label class="label">送给朋友 <text>{{register_give_integral}}</text>积分大礼包，您也可以获得<text>{{shared_give_integral}}</text> 的积分</label>
+</view>
