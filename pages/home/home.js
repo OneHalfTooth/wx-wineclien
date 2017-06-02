@@ -42,6 +42,14 @@ Page({
       path: 'http://www.masyang.com' // 分享路径
     }
   },
+  iconClic:function(e){
+    var id = e.currentTarget.id
+    if (id == 6) {
+      wx.navigateTo({
+        url: '../Recommend/recommend',
+      })
+    }
+  },
   // 轮播头被点击
   scrollimageclick:function(tap){
     var id = parseInt(tap.currentTarget.id);

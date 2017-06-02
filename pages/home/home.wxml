@@ -16,7 +16,7 @@
                 </view>
             </view>
             <view class = "icon_back_size">
-                <view  wx:for-items="{{icon_list}}" wx:if="{{index >= 4}}" class = "one_icon_back_view">
+                <view  wx:for-items="{{icon_list}}" wx:if="{{index >= 4}}" class = "one_icon_back_view" id="{{index}}" bindtap="iconClic">
                     <image src="{{item.picture_url}}" class = "icon_size"></image>
                     <text class = "icon_title">{{item.title}}</text>
                 </view>
